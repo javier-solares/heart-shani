@@ -1,0 +1,477 @@
+body {
+    text-align: center;
+    background-image: url(https://www.wallpapertip.com/wmimgs/72-721106_fondos-negros-anime.jpg);
+    background-color: black;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+@media (orientation: portrait) {
+    body {
+        background-size: 130vw;
+        background-image: url(./1.jpg);
+    }
+}
+
+.heart {
+    position: relative;
+    top: 100px;
+    color: transparent;
+    font: 24px Arial;
+    text-shadow: 0 0 0 #e61a1a, 0 0 2px rgba(255, 204, 204, 0.3);
+}
+
+@media (orientation: portrait) {
+    .heart {
+        margin-top: 150px;
+        font: 14px Arial;
+    }
+}
+
+.row {
+    margin-top: 0.2em;
+}
+
+.particle {
+    display: inline-block;
+    width: 1.5em;
+    margin-right: 0.5em;
+    text-align: center;
+    animation: 60s revolve linear infinite, 1.5s wind cubic-bezier(0.6, 0, 0.76, 1);
+}
+
+.particle:last-child:not(html) {
+    margin-right: 0;
+}
+
+.particle-1 {
+    animation-delay: -48s, -0.3089668371s;
+}
+
+.particle-2 {
+    animation-delay: -44s, -0.3800825632s;
+}
+
+.particle-3 {
+    animation-delay: -35s, -0.0241850017s;
+}
+
+.particle-4 {
+    animation-delay: -43s, -0.427798762s;
+}
+
+.particle-5 {
+    animation-delay: -30s, -0.2626917505s;
+}
+
+.particle-6 {
+    animation-delay: -27s, -0.1221439869s;
+}
+
+.particle-7 {
+    animation-delay: -16s, -0.3971810369s;
+}
+
+.particle-8 {
+    animation-delay: 1s, -0.4202453805s;
+}
+
+.particle-9 {
+    animation-delay: -46s, -0.4765147795s;
+}
+
+.particle-10 {
+    animation-delay: -18s, -0.186938546s;
+}
+
+.particle-11 {
+    animation-delay: -41s, -0.4735550334s;
+}
+
+.particle-12 {
+    animation-delay: -24s, -0.3786530575s;
+}
+
+.particle-13 {
+    animation-delay: -16s, -0.3922835131s;
+}
+
+.particle-14 {
+    animation-delay: -4s, -0.0438923437s;
+}
+
+.particle-15 {
+    animation-delay: -24s, -0.4129927729s;
+}
+
+.particle-16 {
+    animation-delay: -7s, -0.2051081705s;
+}
+
+.particle-17 {
+    animation-delay: -25s, -0.282092526s;
+}
+
+.particle-18 {
+    animation-delay: -32s, -0.1019732559s;
+}
+
+.particle-19 {
+    animation-delay: -14s, -0.4499701585s;
+}
+
+.particle-20 {
+    animation-delay: -9s, -0.0275916754s;
+}
+
+.particle-21 {
+    animation-delay: -54s, -0.1645319037s;
+}
+
+.particle-22 {
+    animation-delay: -53s, -0.2260065678s;
+}
+
+.particle-23 {
+    animation-delay: -20s, -0.2677534294s;
+}
+
+.particle-24 {
+    animation-delay: -50s, -0.0620892654s;
+}
+
+.particle-25 {
+    animation-delay: -40s, -0.3153163168s;
+}
+
+.particle-26 {
+    animation-delay: 0s, -0.4269453195s;
+}
+
+.particle-27 {
+    animation-delay: -11s, -0.1045085782s;
+}
+
+.particle-28 {
+    animation-delay: 0s, -0.0614560228s;
+}
+
+.particle-29 {
+    animation-delay: 3s, -0.112300865s;
+}
+
+.particle-30 {
+    animation-delay: -14s, -0.3570186961s;
+}
+
+.particle-31 {
+    animation-delay: -19s, -0.1989280092s;
+}
+
+.particle-32 {
+    animation-delay: -54s, -0.4430373096s;
+}
+
+.particle-33 {
+    animation-delay: -26s, -0.1904035206s;
+}
+
+.particle-34 {
+    animation-delay: -20s, -0.2279640547s;
+}
+
+.particle-35 {
+    animation-delay: -53s, -0.2742553484s;
+}
+
+.particle-36 {
+    animation-delay: -17s, -0.1814539156s;
+}
+
+.particle-37 {
+    animation-delay: -37s, -0.3166048283s;
+}
+
+.particle-38 {
+    animation-delay: 5s, -0.3402202368s;
+}
+
+.particle-39 {
+    animation-delay: -4s, -0.1379199844s;
+}
+
+.particle-40 {
+    animation-delay: -48s, -0.1539993129s;
+}
+
+.particle-41 {
+    animation-delay: -30s, -0.1306060141s;
+}
+
+.particle-42 {
+    animation-delay: -21s, -0.3633578292s;
+}
+
+.particle-43 {
+    animation-delay: -3s, -0.3416292589s;
+}
+
+.particle-44 {
+    animation-delay: -7s, -0.1860870615s;
+}
+
+.particle-45 {
+    animation-delay: -29s, -0.0368411266s;
+}
+
+.particle-46 {
+    animation-delay: 5s, -0.0869868847s;
+}
+
+.particle-47 {
+    animation-delay: -35s, -0.0510283687s;
+}
+
+.particle-48 {
+    animation-delay: 5s, -0.3874091005s;
+}
+
+.particle-49 {
+    animation-delay: -8s, -0.0531403985s;
+}
+
+.particle-50 {
+    animation-delay: -13s, -0.4852591228s;
+}
+
+.particle-51 {
+    animation-delay: -19s, -0.405538468s;
+}
+
+.particle-52 {
+    animation-delay: -6s, -0.0567160256s;
+}
+
+.particle-53 {
+    animation-delay: -11s, -0.1985378628s;
+}
+
+.particle-54 {
+    animation-delay: -14s, -0.2047615528s;
+}
+
+.particle-55 {
+    animation-delay: -26s, -0.3205640987s;
+}
+
+.particle-56 {
+    animation-delay: -3s, -0.1159235457s;
+}
+
+.particle-57 {
+    animation-delay: -45s, -0.2131861652s;
+}
+
+.particle-58 {
+    animation-delay: -46s, -0.1252701934s;
+}
+
+.particle-59 {
+    animation-delay: 4s, -0.2262659355s;
+}
+
+.particle-60 {
+    animation-delay: -28s, -0.2839062369s;
+}
+
+.particle-61 {
+    animation-delay: -50s, -0.070001247s;
+}
+
+.particle-62 {
+    animation-delay: -7s, -0.3550214365s;
+}
+
+.particle-63 {
+    animation-delay: -30s, -0.3556820059s;
+}
+
+.particle-64 {
+    animation-delay: -6s, -0.4849770208s;
+}
+
+.particle-65 {
+    animation-delay: -22s, -0.1831363148s;
+}
+
+.particle-66 {
+    animation-delay: -45s, -0.3879543474s;
+}
+
+.particle-67 {
+    animation-delay: -5s, -0.3794424801s;
+}
+
+.particle-68 {
+    animation-delay: -33s, -0.4198168932s;
+}
+
+.particle-69 {
+    animation-delay: 4s, -0.2284576561s;
+}
+
+.particle-70 {
+    animation-delay: -9s, -0.0776160031s;
+}
+
+.particle-71 {
+    animation-delay: -46s, -0.424380086s;
+}
+
+.particle-72 {
+    animation-delay: -21s, -0.0534882458s;
+}
+
+.particle-73 {
+    animation-delay: -26s, -0.1151355165s;
+}
+
+.particle-74 {
+    animation-delay: -32s, -0.1066495918s;
+}
+
+.particle-75 {
+    animation-delay: -7s, -0.1980016025s;
+}
+
+.particle-76 {
+    animation-delay: -26s, -0.0594593931s;
+}
+
+.particle-77 {
+    animation-delay: -25s, -0.0448545495s;
+}
+
+.particle-78 {
+    animation-delay: -46s, -0.3028062338s;
+}
+
+.particle-79 {
+    animation-delay: -43s, -0.429372683s;
+}
+
+.particle-80 {
+    animation-delay: -28s, -0.4846312046s;
+}
+
+.particle-81 {
+    animation-delay: -18s, -0.2643113151s;
+}
+
+.particle-82 {
+    animation-delay: 2s, -0.1183923604s;
+}
+
+.particle-83 {
+    animation-delay: -40s, -0.3434699701s;
+}
+
+.particle-84 {
+    animation-delay: 4s, -0.3494320593s;
+}
+
+.particle-85 {
+    animation-delay: -43s, -0.1630120237s;
+}
+
+.particle-86 {
+    animation-delay: -42s, -0.2283461202s;
+}
+
+.particle-87 {
+    animation-delay: 0s, -0.1109022395s;
+}
+
+.particle-88 {
+    animation-delay: -44s, -0.188030341s;
+}
+
+.particle-89 {
+    animation-delay: -25s, -0.2998881322s;
+}
+
+.particle-90 {
+    animation-delay: -11s, -0.2238240267s;
+}
+
+.particle-91 {
+    animation-delay: -50s, -0.0146188958s;
+}
+
+.particle-92 {
+    animation-delay: -49s, -0.3269067116s;
+}
+
+.particle-93 {
+    animation-delay: -43s, -0.4247706293s;
+}
+
+.particle-94 {
+    animation-delay: -47s, -0.0118634793s;
+}
+
+.particle-95 {
+    animation-delay: -20s, -0.1331377248s;
+}
+
+.particle-96 {
+    animation-delay: 3s, -0.1798678389s;
+}
+
+.particle-97 {
+    animation-delay: -23s, -0.1554286662s;
+}
+
+.particle-98 {
+    animation-delay: -18s, -0.4239497256s;
+}
+
+.particle-99 {
+    animation-delay: -20s, -0.0699920291s;
+}
+
+.particle-100 {
+    animation-delay: -12s, -0.3522470089s;
+}
+
+.row-5 .particle {
+    margin-right: 0.4em;
+}
+
+.row-2 {
+    margin-top: 0;
+}
+
+.particle-2 {
+    margin-right: 6em;
+}
+
+.particle-8 {
+    margin-right: 2em;
+}
+
+@keyframes revolve {
+    99% {
+        transform: none;
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes wind {
+    from {
+        transform: translate(-60vw, 70vh);
+    }
+}
